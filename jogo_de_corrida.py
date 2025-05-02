@@ -1,6 +1,10 @@
 import random
 import time
 
+print("=========================================")
+print("          CORRIDA DE CARROS.            " )
+print("=========================================")
+
 jogador1 = input("Jogador 1: ")
 jogador2 = input("Jogador 2: ")
 
@@ -19,12 +23,12 @@ linha_de_chegada = 30
 carro1 = """       
        ____ 
    __/      \__ 
-  [  @ ____ @  ]""" 
+  [  @ ____ @  ]"""
 
-carro2 = """       
+carro2 = """     
        ____ 
    __/      \__ 
-  [  @ ____ @  ] """ 
+  [  @ ____ @  ] """
 
 while pos1 < linha_de_chegada and pos2 < linha_de_chegada:
         time.sleep(0.5)
@@ -37,4 +41,7 @@ while pos1 < linha_de_chegada and pos2 < linha_de_chegada:
 
         pos1 += mov1
         pos2 += mov2 
+
+       
+
 
