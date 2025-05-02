@@ -42,6 +42,10 @@ while pos1 < linha_de_chegada and pos2 < linha_de_chegada:
         pos1 += mov1
         pos2 += mov2 
 
-       
-
+if pos1 >= linha_de_chegada and pos2 < linha_de_chegada:
+       print(f"{jogador1} foi campeão")
+elif pos2 >= linha_de_chegada and pos1 < linha_de_chegada 
+       print (f"{jogador2} foi campeão")
+elif pos1 == linha_de_chegada and pos2 == linha_de_chegada 
+       print("A corrida empatou!")
 
